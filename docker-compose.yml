@@ -1,10 +1,9 @@
-version: '3'
 
 services:
-  app:
+  nextjs:
+    container_name: portfolio
     build:
       context: .
-    container_name: portfolio-next
-    restart: unless-stopped
     ports:
       - "3000:3000"
+    restart: unless-stopped

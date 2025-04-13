@@ -3,8 +3,8 @@
 import Image from "next/image"
 
 const logos = [
-  { src: "/kontakt-simon-logo.png", alt: "Kontakt-Simon", height: 80, width: 160 },
-  { src: "/hellcold_bim_pionowe_ciemne_tlo.png", alt: "Hellcold", height: 80, width: 160 },
+  { src: "/logos/kontakt-simon-logo.png", alt: "Kontakt-Simon", height: 80, width: 160 },
+  { src: "/logos/hellcold_bim_pionowe_ciemne_tlo.png", alt: "Hellcold", height: 80, width: 160 },
 ]
 
 export default function TrustedBySection() {
