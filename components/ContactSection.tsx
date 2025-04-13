@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa'
 
 export default function ContactSection() {
   return (
-    <section className=" py-24 px-6">
+    <section className=" py-24 px-6" id='kontakt'>
       <div className="max-w-[1200px] mx-auto text-center space-y-10">
         
         <h2 className="text-3xl font-bold text-green-600">Skontaktuj się ze mną</h2>
