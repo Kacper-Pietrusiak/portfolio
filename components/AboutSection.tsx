@@ -27,7 +27,7 @@ export default function AboutSection() {
 
           {/* Zielony box – absolute z responsywnym pozycjonowaniem */}
           <div
-            className="bg-gradient-to-r from-emerald-500 to-lime-500 text-white p-6 rounded-2xl w-80 shadow-lg
+            className="bg-gradient-to-r from-emerald-500 to-lime-500 text-white p-6 rounded-2xl w-60 md:w-80 shadow-lg
             absolute top-[75%] left-1/2 -translate-x-1/2 md:top-auto md:bottom-[-100px] md:left-[-40px] md:translate-x-0 z-20
             text-center md:text-left"
           >
@@ -66,7 +66,7 @@ export default function AboutSection() {
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
-          className="space-y-6"
+          className="pt-20 sm:pt-0 space-y-6"
         >
           <h2 className="text-gray-500 uppercase tracking-widest text-sm font-medium">
             O mnie
