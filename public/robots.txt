@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kacperpietrusiak.pl
+
+# Sitemaps
+Sitemap: https://kacperpietrusiak.pl/sitemap.xml
