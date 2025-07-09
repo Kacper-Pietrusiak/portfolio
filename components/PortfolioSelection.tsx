@@ -8,7 +8,7 @@ const projects = [
     client: "Karmello Chocolatier",
     title: "Karmello",
     desc: "Konfigurator do tworzenia zestawów czekoladek",
-    link: "https://karmello.pl",
+    link: "https://www.karmello.pl/wlasny-zestaw",
   },
   {
     image: "/skrypty.png",
