@@ -8,6 +8,7 @@ const projects = [
     client: "Karmello Chocolatier",
     title: "Karmello",
     desc: "Konfigurator do tworzenia zestawów czekoladek",
+    link: "https://karmello.pl",
   },
   {
     image: "/skrypty.png",
@@ -20,6 +21,7 @@ const projects = [
     client: "HellCold sp z o.o.",
     title: "Hellcold.pl",
     desc: "Platforma dla hellcold z wbudowanym skelpem i blogiem.",
+    link: "https://hellcold.pl",
   },
  
 ]
@@ -41,7 +43,8 @@ export default function PortfolioSection() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-xl border border-gray-200 overflow-hidden hover:shadow-2xl transition"
+              className="bg-white rounded-xl shadow-xl border border-gray-200 overflow-hidden hover:shadow-2xl transition cursor-pointer"
+              onClick={() => project.link ? window.open(project.link, '_blank') : null}
             >
               <Image
                 src={project.image}
