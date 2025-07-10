@@ -4,6 +4,20 @@ import Image from "next/image"
 
 const projects = [
   {
+    image: "/aroma.png",
+    client: "Aroma",
+    title: "Aroma",
+    desc: "Strona internetowa dla firmy Aroma z wbudowanym sklepem i blogiem.",
+    link: "https://air-aroma.hellcold.pl",
+  },
+  {
+    image: "/mathbyte.png",
+    client: "MathByte",
+    title: "MathByte",
+    desc: "Strona internetowa dla firmy MathByte",
+    link: "https://mathbyte.pl",
+  },
+  {
     image: "/carmello.png",
     client: "Karmello Chocolatier",
     title: "Karmello",
